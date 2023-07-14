@@ -1,9 +1,3 @@
-# : true
-
-# : true
-
-# : true
-
 class ExpendituresController < ApplicationController
   def index
     @expenditures = Expenditure.all.order(created_at: :desc)
@@ -40,6 +34,8 @@ class ExpendituresController < ApplicationController
     flash[:notice] = 'Expenditure deleted successfully'
     redirect_to category_path(@category.id)
   end
+
+  private
 
   def expenditure_params
     params.require(:expenditure).permit(:name, :amount)
