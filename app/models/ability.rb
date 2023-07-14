@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Ability
   include CanCan::Ability
 
@@ -6,7 +8,7 @@ class Ability
 
     return unless user.present?
 
-    can(:manage, Category, user:) 
+    can(:manage, Category, user:)
     can :manage, Expense, user:
   end
 end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # : true
 
 class CreateExpenditures < ActiveRecord::Migration[7.0]

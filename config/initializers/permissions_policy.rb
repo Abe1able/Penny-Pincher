@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # : true
 # : true
 # Define an application-wide HTTP permissions policy. For further
