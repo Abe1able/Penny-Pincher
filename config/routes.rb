@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+# : true
 
 Rails.application.routes.draw do
   devise_for :users

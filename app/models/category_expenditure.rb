@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+# : true
 
 class CategoryExpenditure < ApplicationRecord
   belongs_to :category
