@@ -1,5 +1,7 @@
 # : true
 
+# : true
+
 class Category < ApplicationRecord
   belongs_to :author, class_name: 'User'
   has_many :category_expenditures, dependent: :destroy, foreign_key: 'category_id'
@@ -7,4 +9,8 @@ class Category < ApplicationRecord
 
   validates :name, presence: true
   validates :icon, presence: true
+
+  def total
+    expenditures.sum(:amount)
+  end
 end

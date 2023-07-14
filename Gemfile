@@ -2,6 +2,8 @@
 
 # : true
 
+# : true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -36,6 +38,9 @@ gem 'jbuilder'
 
 # Add devise
 gem 'devise'
+
+# Add authorization
+gem 'cancancan'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -77,3 +82,5 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
+
+gem 'tailwindcss-rails', '~> 2.0'
