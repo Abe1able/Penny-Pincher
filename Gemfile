@@ -37,6 +37,9 @@ gem 'jbuilder'
 # Add devise
 gem 'devise'
 
+# Add authorization
+gem 'cancancan'
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -77,3 +80,5 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
+
+gem "tailwindcss-rails", "~> 2.0"
