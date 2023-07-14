@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# : true
 
 require_relative '../config/boot'
 require 'rake'

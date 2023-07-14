@@ -1,0 +1,4 @@
+# : true
+
+module SplashScreenHelper
+end
