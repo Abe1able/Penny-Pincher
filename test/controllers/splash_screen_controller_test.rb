@@ -2,6 +2,8 @@
 
 # : true
 
+# : true
+
 require 'test_helper'
 
 class SplashScreenControllerTest < ActionDispatch::IntegrationTest

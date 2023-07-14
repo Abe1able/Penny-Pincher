@@ -1,3 +1,5 @@
+# : true
+
 require 'rails_helper'
 
 RSpec.describe 'Category Index Page', type: :feature do

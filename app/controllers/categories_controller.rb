@@ -2,6 +2,8 @@
 
 # : true
 
+# : true
+
 class CategoriesController < ApplicationController
   before_action :authenticate_user!
 
