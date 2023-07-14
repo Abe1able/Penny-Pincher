@@ -1,6 +1,8 @@
-<nav class="splash w-full flex gap-24 text-white p-6 text-xl">
-  <p><%= link_to '<i class="fa-solid fa-bars"></i>'.html_safe, root_path %></p>
-  <p class="mr-4"><%= render partial: 'layouts/title' %></p>
-  <%= button_to '<i class="fa-solid fa-right-from-bracket"></i>'.html_safe, destroy_user_session_path, method: :delete %>
+<nav class="splash w-full flex gap-12 text-white p-6 text-xl">
+  <p><%= link_to '<i class="fa-solid fa-bars"></i>'.html_safe, unauthenticated_root_path %></p>
+  <p><%= render partial: 'layouts/title' %></p>
+  <% if user_signed_in? %>
+    <%= button_to 'Log Out'.html_safe, destroy_user_session_path, method: :delete, class: "logout rounded-lg text-xs p-2 w-20" %>
+  <% end %>
 
 </nav>
