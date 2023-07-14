@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # : true
 
 # Puma can serve each request in a thread from an internal thread pool.

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # : true
 
 class AddNameToUsers < ActiveRecord::Migration[7.0]

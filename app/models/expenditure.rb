@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Expenditure < ApplicationRecord
   belongs_to :author, class_name: 'User'
   has_many :category_expenditures, foreign_key: 'expenditure_id', dependent: :destroy

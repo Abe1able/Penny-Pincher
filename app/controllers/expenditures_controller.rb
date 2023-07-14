@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ExpendituresController < ApplicationController
   def index
     @expenditures = Expenditure.all.order(created_at: :desc)

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # : true
 
 # Be sure to restart your server when you modify this file.
