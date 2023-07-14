@@ -82,6 +82,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: Penny_Pincher_production
   username: Penny_Pincher
   password: <%= ENV["PENNY_PINCHER_DATABASE_PASSWORD"] %>
