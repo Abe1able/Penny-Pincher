@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# : true
+
+# : true
+
+# : true
+
+require_relative '../config/boot'
+require 'rake'
+Rake.application.run
