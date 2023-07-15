@@ -49,7 +49,12 @@
 ![Preview](./app/assets/images/erd_diagram.png)
 
 
+### Live Demo
+This is a [live](https://abe1able-penny-pincher.onrender.com) demo of the mobile app
 
+
+### Video Demo
+This is a [video](https://www.loom.com/share/05c9a959d9054528a726f479e885aaa1?sid=2f006c21-4acd-4adb-9891-bbbc34f71bb1) demonstration of the app
 
 
 <!-- Features -->
@@ -59,6 +64,7 @@
 - **User Sign_up and Sign_in**
 - **User can add Categories**
 - **User can add expenditures to Categories**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
