@@ -54,7 +54,7 @@ This is a [live](https://abe1able-penny-pincher.onrender.com) demo of the mobile
 
 
 ### Video Demo
-This is a [video](https://www.loom.com/share/05c9a959d9054528a726f479e885aaa1?sid=2f006c21-4acd-4adb-9891-bbbc34f71bb1) demonstration of the app
+This is a [video](https://www.loom.com/share/7edd18c43a814a98bd436c02acbb33f8?sid=729d8bfa-ad20-47f5-ab4f-8785081db17a) demonstration of the app
 
 
 <!-- Features -->
